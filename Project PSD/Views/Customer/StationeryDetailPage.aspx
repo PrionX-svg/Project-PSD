@@ -10,13 +10,16 @@
     <form id="stationeryDetail" runat="server">
         <h1>Stationery's Detail</h1>
         <div>
-            <asp:Label ID="Label1" runat="server" Text="Name: "></asp:Label>
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br />
-
-            <asp:Label ID="Label2" runat="server" Text="Price: "></asp:Label>
-            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>            
+            <asp:GridView ID="StaioneryDetailGridView" runat="server" AutoGenerateColumns="False">
+                <Columns>
+                    <asp:BoundField HeaderText="Name" />
+                    <asp:BoundField HeaderText="Price" />
+                </Columns>
+            </asp:GridView>
+             <asp:Label ID="qtyLbl" runat="server" Text="Quantity = "></asp:Label>
+             <asp:TextBox ID="qtyBox" runat="server"></asp:TextBox>   
         </div>
-        <asp:Button ID="addToCartButton" runat="server" Text="ADD TO CART" />
+        <asp:Button ID="addToCartButton" runat="server" Text="ADD TO CART" OnClick="addToCartButton_Click"/><br />
     </form>
 </body>
 </html>

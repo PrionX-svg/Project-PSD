@@ -14,6 +14,10 @@ namespace Project_PSD.Views.Customer
 
         }
 
-        
+        protected void addToCartButton_Click(object sender, EventArgs e)
+        {
+            //Before redirect to cart page, add a validation first (See "6. Stationery Detail")
+            Response.Redirect("~/Views/Customer/CartPage.aspx");
+        }
     }
 }

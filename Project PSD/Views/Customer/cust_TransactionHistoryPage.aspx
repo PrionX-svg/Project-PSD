@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="cust_TransactionPage.aspx.cs" Inherits="Project_PSD.Views.Customer.cust_TransactionPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="cust_TransactionHistoryPage.aspx.cs" Inherits="Project_PSD.Views.Customer.cust_TransactionPage" %>
 
 <!DOCTYPE html>
 

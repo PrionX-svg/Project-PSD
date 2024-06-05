@@ -24,40 +24,31 @@ namespace Project_PSD.Views.Customer
         protected global::System.Web.UI.HtmlControls.HtmlForm stationeryDetail;
 
         /// <summary>
-        /// Label1 control.
+        /// StaioneryDetailGridView control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.GridView StaioneryDetailGridView;
 
         /// <summary>
-        /// TextBox1 control.
+        /// qtyLbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.Label qtyLbl;
 
         /// <summary>
-        /// Label2 control.
+        /// qtyBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
-
-        /// <summary>
-        /// TextBox2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox qtyBox;
 
         /// <summary>
         /// addToCartButton control.

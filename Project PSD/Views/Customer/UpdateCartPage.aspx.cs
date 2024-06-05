@@ -7,12 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace Project_PSD.Views.Customer
 {
-    public partial class CartPage : System.Web.UI.Page
+    public partial class UpdateCartPage : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
-
     }
 }

@@ -92,13 +92,14 @@
     <Content Include="Views\Admin\HomePage.aspx" />
     <Content Include="Views\Admin\InsertPage.aspx" />
     <Content Include="Views\Admin\UpdatePage.aspx" />
-    <Content Include="Views\Admin\TransactionPage.aspx" />
+    <Content Include="Views\Admin\TransactionReportPage.aspx" />
     <Content Include="Views\Admin\UpdateProfile.aspx" />
     <Content Include="Views\Customer\CartPage.aspx" />
     <Content Include="Views\Customer\customerHomePage.aspx" />
-    <Content Include="Views\Customer\cust_TransactionPage.aspx" />
+    <Content Include="Views\Customer\cust_TransactionHistoryPage.aspx" />
     <Content Include="Views\Customer\cust_UpdateProfile.aspx" />
     <Content Include="Views\Customer\StationeryDetailPage.aspx" />
+    <Content Include="Views\Customer\UpdateCartPage.aspx" />
     <Content Include="Views\Guest\guestHomePage.aspx" />
     <Content Include="Views\LogInPage.aspx" />
     <Content Include="Views\RegisterPage.aspx" />
@@ -172,12 +173,12 @@
     <Compile Include="Views\Admin\UpdatePage.aspx.designer.cs">
       <DependentUpon>UpdatePage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Views\Admin\TransactionPage.aspx.cs">
-      <DependentUpon>TransactionPage.aspx</DependentUpon>
+    <Compile Include="Views\Admin\TransactionReportPage.aspx.cs">
+      <DependentUpon>TransactionReportPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Views\Admin\TransactionPage.aspx.designer.cs">
-      <DependentUpon>TransactionPage.aspx</DependentUpon>
+    <Compile Include="Views\Admin\TransactionReportPage.aspx.designer.cs">
+      <DependentUpon>TransactionReportPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Admin\UpdateProfile.aspx.cs">
       <DependentUpon>UpdateProfile.aspx</DependentUpon>
@@ -200,12 +201,12 @@
     <Compile Include="Views\Customer\customerHomePage.aspx.designer.cs">
       <DependentUpon>customerHomePage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Views\Customer\cust_TransactionPage.aspx.cs">
-      <DependentUpon>cust_TransactionPage.aspx</DependentUpon>
+    <Compile Include="Views\Customer\cust_TransactionHistoryPage.aspx.cs">
+      <DependentUpon>cust_TransactionHistoryPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Views\Customer\cust_TransactionPage.aspx.designer.cs">
-      <DependentUpon>cust_TransactionPage.aspx</DependentUpon>
+    <Compile Include="Views\Customer\cust_TransactionHistoryPage.aspx.designer.cs">
+      <DependentUpon>cust_TransactionHistoryPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Customer\cust_UpdateProfile.aspx.cs">
       <DependentUpon>cust_UpdateProfile.aspx</DependentUpon>
@@ -220,6 +221,13 @@
     </Compile>
     <Compile Include="Views\Customer\StationeryDetailPage.aspx.designer.cs">
       <DependentUpon>StationeryDetailPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Customer\UpdateCartPage.aspx.cs">
+      <DependentUpon>UpdateCartPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Customer\UpdateCartPage.aspx.designer.cs">
+      <DependentUpon>UpdateCartPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Guest\guestHomePage.aspx.cs">
       <DependentUpon>guestHomePage.aspx</DependentUpon>
